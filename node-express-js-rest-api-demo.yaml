@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-express-js-rest-api-demo
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  labels:
+    run: node-express-js-rest-api-demo
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8081
+    targetPort: 8081
+    protocol: TCP
+    name: http
+  selector:
+    run: node-express-js-rest-api-demo
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-express-js-rest-api-demo
+spec:
+  selector:
+    matchLabels:
+      run: node-express-js-rest-api-demo
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: node-express-js-rest-api-demo
+    spec:
+      containers:
+      - name: node-express-js-rest-api-demo
+        image: dniacr01.azurecr.io/node-express-js-rest-api-demo
+        ports:
+        - containerPort: 8081

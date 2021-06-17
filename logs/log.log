@@ -1,0 +1,8 @@
+info, audit log, 17-06-17-2021 23:23:46, 200, undefined, /listSAs, GET, ::1, ::
+error, audit log, 17-06-17-2021 23:23:48, 400, Not Found, /list, GET, ::1, ::
+error, audit log, 17-06-17-2021 23:26:33, 400, Not Found, /list, GET, ::1, ::
+info, audit log, 17-06-17-2021 23:26:36, 200, , /listSAs, GET, ::1, ::
+info, audit log, 17-06-17-2021 23:27:01, 200, OK, /listSAs, GET, ::1, ::
+error, audit log, 17-06-17-2021 23:27:07, 400, Not Found, /list, GET, ::1, ::
+info, audit log, 17-06-17-2021 23:27:52, 200, OK, /listSAs, GET, ::1, ::
+error, audit log, 17-06-17-2021 23:27:55, 400, Not Found, /list, GET, ::1, ::
