@@ -6,3 +6,11 @@ info, audit log, 17-06-17-2021 23:27:01, 200, OK, /listSAs, GET, ::1, ::
 error, audit log, 17-06-17-2021 23:27:07, 400, Not Found, /list, GET, ::1, ::
 info, audit log, 17-06-17-2021 23:27:52, 200, OK, /listSAs, GET, ::1, ::
 error, audit log, 17-06-17-2021 23:27:55, 400, Not Found, /list, GET, ::1, ::
+info, audit log, 18-06-18-2021 11:30:29, 200, OK, /listSAs, GET, ::1, ::
+info, audit log, 18-06-18-2021 11:30:47, 200, OK, /listSAs, GET, ::1, ::
+info, audit log, 18-06-18-2021 12:11:02, 200, OK, /listSAs, GET, ::1, 10.230.192.4
+info, audit log, 18-06-18-2021 12:11:04, 200, OK, /listSAs, GET, ::1, 10.230.192.4
+info, audit log, 18-06-18-2021 12:11:04, 200, OK, /listSAs, GET, ::1, 10.230.192.4
+error, audit log, 18-06-18-2021 12:11:18, 400, Not Found, /listSAss, GET, ::1, 10.230.192.4
+info, audit log, 18-06-18-2021 12:11:22, 200, OK, /listSAs, GET, ::1, 10.230.192.4
+info, audit log, 18-06-18-2021 12:18:26, 200, OK, /listSAs, GET, ::1, 10.230.192.4
